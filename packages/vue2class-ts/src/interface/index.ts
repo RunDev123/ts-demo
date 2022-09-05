@@ -16,3 +16,8 @@ export interface deleteTodo {
 export interface updateTodos {
   (index: number, status: boolean): void;
 }
+//动物行为
+export interface AnimalAction<T> {
+  run(info: T): void;
+  eat(info: T): void;
+}

@@ -36,7 +36,7 @@ export default class App extends Vue {
       component: "Chart",
     },
   ];
-  currentComponent = "List";
+  currentComponent = "Chart";
   changeTitle(item: object): void {
     this.currentComponent = item.component;
   }
